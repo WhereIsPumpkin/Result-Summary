@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 24px 57px 40px 58px;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  border-radius: 0px 0px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container h1 {
+  color: #cac9ff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.circle {
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.circle h2 {
+  font-weight: 800;
+  font-size: 56px;
+}
+
+.circle p {
+  color: #cac9ff;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#great {
+  margin-bottom: 8px;
+}
+
+#comment {
+  font-weight: 500;
+  font-size: 16px;
+  color: #cac9ff;
+}
+
+.scontainer {
+  padding: 24px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.scontainer h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #303b59;
+  margin-bottom: 24px;
+}
+
+#skills {
+  display: flex;
+  border-radius: 12px;
+  padding: 20px 16px 18px 20px;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reaction {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+}
+
+.memory {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+}
+
+.verbal {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+}
+
+.visual {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+}
+
+.reaction .badge p {
+  color: #ff5555;
+}
+.memory .badge p {
+  color: #ffb21e;
+}
+.verbal .badge p {
+  color: #00bb8f;
+}
+.visual .badge p {
+  color: #1125d6;
+}
+
+.badge {
+  display: flex;
+  gap: 16px;
+}
+
+.badge p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.stat {
+  font-weight: 700;
+  color: #303b59;
+}
+
+.stat span {
+  margin-left: 0.5rem;
+  opacity: 0.5;
+}
+
+.submit {
+  background: #303b59;
+  border-radius: 128px;
+  width: 100%;
+  color: #ffffff;
+  padding: 17px;
+  border: none;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecf2ff;
+  }
+  main {
+    width: 736px;
+    height: 512px;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  }
+
+  .container {
+    border-radius: 32px;
+    width: 368px;
+    padding: 34px 55px 55px 55px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  #great{
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  #comment{
+    font-size: 18px;
+  }
+
+
+  .circle{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 28px;
+  } 
+  
+  .circle h2{
+    font-size: 72px;
+  }
+  
+
+  .circle p {
+    margin-top: 4px;
+    font-size: 18px;
+  }
+
+
+  .scontainer {
+    padding: 38px 40px 46px;
+    flex: 1;
+    border-radius: 32px;
+  }
+
+  .content h2{
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  #skills{
+    font-size: 18px;
+  }
+
+  .submit{
+    margin-top: 17px;
+  }
+
+  .submit:hover{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  }
+
+}
